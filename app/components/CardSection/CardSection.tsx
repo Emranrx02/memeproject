@@ -31,7 +31,7 @@ export default function CardSection() {
             <VerticleSlider images={images3} speed={250} />
           </div>
         </div>
-        <div className="my-20 text-center max-w-[45rem] text-white  mx-auto">
+        {/* <div className="my-20 text-center max-w-[45rem] text-white  mx-auto">
           <p className="text-white text-center text-3xl sm:text-5xl font-bold">
             <span>✨</span> Sneak peek Alert <span>✨</span>
           </p>
@@ -45,7 +45,7 @@ export default function CardSection() {
             familiar vibes. And yo, most importantly, {`we're`} all about that
             animal activism, straight up.
           </p>
-        </div>
+        </div> */}
       </MainLayout>
     </div>
   );

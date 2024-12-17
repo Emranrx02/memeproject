@@ -10,7 +10,7 @@ export default function NavBar() {
     { label: <FaXTwitter size={32} />, slug: "https://x.com/PenguBased" },
   ];
   return (
-    <nav className="w-full fixed z-50 py-3 border-b  bg-[#0164FF]">
+    <nav className="w-full fixed z-50 py-3 px-2 border-b  bg-[#0164FF]">
       <MainLayout>
         <div className="flex items-center justify-between ">
           <Image
@@ -27,7 +27,7 @@ export default function NavBar() {
               </Link>
             ))}
             <Link target="_blank" href={"#"}>
-              <button className="text-xl uppercase ml-3 font-bold rounded-full bg-white text-[#0164FF] px-5 py-2">
+              <button className="text-lg uppercase ml-3 font-bold rounded-full bg-white text-[#0164FF] px-4 py-2">
                 buy now
               </button>
             </Link>
