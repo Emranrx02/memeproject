@@ -3,8 +3,8 @@ import MainLayout from "../utils/MainLayout";
 
 export default function HeaderSection() {
   return (
-    <section className=" text-center bg-brandBlue ">
-      <div className=" py-56 bg-[radial-gradient(ellipse_at_center,_#9fb8ff,_#3273ff,_#0066ff)]">
+    <section className=" text-center  ">
+      <div className=" pt-56 ">
         <MainLayout>
           <div className="max-w-[60rem] mx-auto">
             <h1 className="text-5xl sm:text-8xl  inline-block relative customtext font-extrabold text-white">
@@ -15,7 +15,7 @@ export default function HeaderSection() {
                 <Image
                   src={"/base.png"}
                   alt="base"
-                  className="w-9 right-0 absolute"
+                  className=" w-5 sm:w-9 right-0 absolute"
                   width={1920}
                   height={1080}
                 />
@@ -30,7 +30,7 @@ export default function HeaderSection() {
                 <Image
                   src={"/mounth.png"}
                   alt="base"
-                  className="w-9 right-0 top-[50%] translate-y-[-50%] absolute"
+                  className="w-5 sm:w-9 right-0 top-[50%] translate-y-[-50%] absolute"
                   width={1920}
                   height={1080}
                 />
