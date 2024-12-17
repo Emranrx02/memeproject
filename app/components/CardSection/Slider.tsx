@@ -34,8 +34,8 @@ export default function VerticleSlider({
                 className="rounded-2xl"
                 src={item}
                 alt="sneakpeak4"
-                width={1920}
-                height={1080}
+                width={500}
+                height={500}
               />
             </div>
           ))}

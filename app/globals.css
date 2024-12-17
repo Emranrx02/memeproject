@@ -19,3 +19,58 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.customtext::before {
+  content: "BASE";
+  position: absolute;
+  color: #0164ff;
+  bottom: 6px;
+  left: -2px;
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: #0164ff;
+}
+.customtext-d::before {
+  content: "D";
+  position: absolute;
+  color: #0164ff;
+  left: -2px;
+  bottom: 6px;
+
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: #0164ff;
+}
+
+.customtext-pen::before {
+  content: "PEN";
+  position: absolute;
+  color: #0164ff;
+  bottom: 6px;
+  left: -2px;
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: #0164ff;
+}
+
+.customtext-g::before {
+  content: "G";
+  position: absolute;
+  color: #0164ff;
+  bottom: 6px;
+  left: -2px;
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: #0164ff;
+}
+
+.customtext-uins::before {
+  content: "UINS";
+  position: absolute;
+  color: #0164ff;
+  bottom: 6px;
+  left: -2px;
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: #0164ff;
+}
+
+.customtext {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #0164ff;
+}

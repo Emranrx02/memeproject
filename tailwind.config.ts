@@ -12,6 +12,8 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         brandBlue: "#0164FF",
+        "custom-blue-light": "#85d7ff",
+        "custom-blue-dark": "#1fb6ff",
       },
     },
   },
