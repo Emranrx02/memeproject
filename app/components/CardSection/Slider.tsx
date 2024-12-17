@@ -31,7 +31,7 @@ export default function VerticleSlider({
           {images.map((item) => (
             <div key={item} className="rounded-2xl  h-full">
               <Image
-                className="rounded-2xl h-full"
+                className="rounded-2xl aspect-square h-full"
                 src={item}
                 alt="sneakpeak"
                 width={500}
