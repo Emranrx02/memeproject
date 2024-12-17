@@ -14,6 +14,7 @@ export default {
         brandBlue: "#0164FF",
         "custom-blue-light": "#85d7ff",
         "custom-blue-dark": "#1fb6ff",
+        "text-blue": "#0038ff",
       },
     },
   },

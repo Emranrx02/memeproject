@@ -47,9 +47,13 @@ export default function HeaderSection() {
               $Bengu
             </h1>
 
-            <p className="text-white  text-lg font-semibold max-w-[40rem] mx-auto mt-20">
-              BASED PENGUINS ARE 5,000 UNIQUE COLLECTIBLE PENGUINS WITH PROOF OF
-              OWNERSHIP STORED ON THE BASE BLOCKCHAIN.
+            <p className="text-text-blue  px-2 sm:text-xl font-semibold max-w-[40rem] mx-auto mt-20">
+              The most based penguins on the Base Chain. $BENGU waddled out of
+              the ice to bring memes, vibes, and pure degenerate energy to the
+              base. Forget the hype—BENGU is here to chill. 🧊
+              <br />
+              <br />
+              Stay based.Stay BENGU.
             </p>
           </div>
         </MainLayout>
