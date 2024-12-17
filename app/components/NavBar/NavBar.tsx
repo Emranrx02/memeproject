@@ -9,7 +9,7 @@ export default function NavBar() {
     { label: <FaXTwitter size={32} />, slug: "www.twitter.com" },
   ];
   return (
-    <nav className="w-full fixed py-3  bg-[#0164FF]">
+    <nav className="w-full fixed py-3 border-b  bg-[#0164FF]">
       <MainLayout>
         <div className="flex items-center justify-between ">
           <Image
