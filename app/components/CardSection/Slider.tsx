@@ -29,13 +29,13 @@ export default function VerticleSlider({
         //@ts-ignore
         <Slider {...settings}>
           {images.map((item) => (
-            <div key={item} className="rounded-2xl">
+            <div key={item} className="rounded-2xl  h-full">
               <Image
-                className="rounded-2xl"
+                className="rounded-2xl h-full"
                 src={item}
-                alt="sneakpeak4"
-                width={1920}
-                height={1080}
+                alt="sneakpeak"
+                width={500}
+                height={500}
               />
             </div>
           ))}
