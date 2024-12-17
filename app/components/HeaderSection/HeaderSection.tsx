@@ -46,15 +46,16 @@ export default function HeaderSection() {
             <h1 className="text-5xl uppercase sm:text-7xl inline-block customtext-bengu  relative  mt-10 font-extrabold text-white">
               $Bengu
             </h1>
-
-            <p className="text-text-blue  px-2 sm:text-xl font-semibold max-w-[40rem] mx-auto mt-20">
-              The most based penguins on the Base Chain. $BENGU waddled out of
-              the ice to bring memes, vibes, and pure degenerate energy to the
-              base. Forget the hype—BENGU is here to chill. 🧊
-              <br />
-              <br />
-              Stay based.Stay BENGU.
-            </p>
+            <div className="">
+              <p className="text-white inline-block relative  px-2 sm:text-3xl font-bold max-w-[40rem] mx-auto mt-20">
+                The most based penguins on the Base Chain. $BENGU waddled out of
+                the ice to bring memes, vibes, and pure degenerate energy to
+                base. Forget the hype—BENGU is here to chill. 🧊
+                <br />
+                <br />
+                Stay based.Stay BENGU.
+              </p>
+            </div>
           </div>
         </MainLayout>
       </div>
